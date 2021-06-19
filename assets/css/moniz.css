@@ -3406,7 +3406,7 @@ ul {
   bottom: -120px;
   left: 265px;
   right: -1000000000px;
-  background-color: #f1f1f5;
+  /* background-color: #f1f1f5; */
   border-radius: var(--moniz-border-radius, 10px);
 }
 
