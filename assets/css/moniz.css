@@ -49,6 +49,7 @@
 ## Error Page
 ## Contact Page
 ## Contact Page Google Map
+# brand
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -7420,4 +7421,13 @@ ul {
   text-decoration: none;
   color: orangered;
   /* color: var(--moniz-base, #ec1d1d); */
+}
+.brand_header {
+  text-align: center;
+  margin-bottom: 4%;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.brand {
+  margin-bottom: 5%;
 }
