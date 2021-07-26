@@ -7417,7 +7417,7 @@ ul {
   padding-top: 118px;
   border-top: 1px solid var(--moniz-extra, #e4e4ea);
 }
-.abt_me2 {
+.abt_me2, .abt_me3 {
   font-weight: bold;
   text-decoration: none;
   color: black;
@@ -7431,6 +7431,11 @@ ul {
   font-weight: bold;
   text-decoration: none;
   color: orangered;
+}
+.abt_me3:hover{
+   font-weight: bold;
+  text-decoration: none;
+  color: white;
 }
 .brand_header {
   text-align: center;
