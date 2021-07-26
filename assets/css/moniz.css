@@ -7417,10 +7417,20 @@ ul {
   padding-top: 118px;
   border-top: 1px solid var(--moniz-extra, #e4e4ea);
 }
-.abt_me:hover {
+.abt_me2 {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.abt_me {
+  font-weight: bold;
+  text-decoration: none;
+}
+.abt_me:hover,
+.abt_me2:hover {
+  font-weight: bold;
   text-decoration: none;
   color: orangered;
-  /* color: var(--moniz-base, #ec1d1d); */
 }
 .brand_header {
   text-align: center;
@@ -7430,4 +7440,13 @@ ul {
 }
 .brand {
   margin-bottom: 5%;
+}
+.brand_class {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.brand_img {
+  margin: 2%;
+  width: auto;
+  height: 90px;
 }
