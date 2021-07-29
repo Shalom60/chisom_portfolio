@@ -253,6 +253,9 @@
   .core-features {
     padding: 255px 0 106px;
   }
+  .brand-img {
+    width: 30%;
+  }
 }
 
 /* Tablet Layout: 768px. */
@@ -1165,6 +1168,9 @@
   .get-in-touch__img-shape-1,
   .get-in-touch__img-shape-2 {
     display: none;
+  }
+  .brand-img {
+    width: 60%;
   }
 }
 
