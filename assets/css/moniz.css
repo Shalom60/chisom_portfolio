@@ -3814,6 +3814,7 @@ ul {
 }
 
 .footer-widget__about-text {
+  text-align: center;
   font-size: 16px;
   color: #9e9ea7;
   margin: 0;
@@ -3822,6 +3823,7 @@ ul {
 }
 
 .footer-widget__about-social-list {
+  justify-content: center;
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
@@ -7417,7 +7419,8 @@ ul {
   padding-top: 118px;
   border-top: 1px solid var(--moniz-extra, #e4e4ea);
 }
-.abt_me2, .abt_me3 {
+.abt_me2,
+.abt_me3 {
   font-weight: bold;
   text-decoration: none;
   color: black;
@@ -7432,8 +7435,8 @@ ul {
   text-decoration: none;
   color: orangered;
 }
-.abt_me3:hover{
-   font-weight: bold;
+.abt_me3:hover {
+  font-weight: bold;
   text-decoration: none;
   color: white;
 }
