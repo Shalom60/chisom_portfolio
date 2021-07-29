@@ -253,13 +253,32 @@
   .core-features {
     padding: 255px 0 106px;
   }
+  .brand_class {
+    text-align: center;
+  }
+  /* .brand_class {
+    margin-left: 6%;
+  }
   .brand-img {
     width: 30%;
+    margin: 4%;
   }
+  .brand_img {
+    margin-right: 10%;
+  } */
 }
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .brand_class {
+    text-align: center;
+  }
+  /* .brand_img {
+    margin-right: 5%;
+  } */
+  .brand-img {
+    width: 80%;
+  }
   .welcome-one__left {
     margin-right: 0;
     margin-bottom: 50px;
@@ -1169,12 +1188,38 @@
   .get-in-touch__img-shape-2 {
     display: none;
   }
+  .brand_class {
+    text-align: center;
+  }
   .brand-img {
-    width: 60%;
+    width: 100%;
+  }
+  /*.brand_img {
+    margin: 2.2%;
+    margin-bottom: 5%;
+  } */
+}
+@media only screen and (min-width: 1080px) and (max-width: 1920px) {
+  /* .brand_class {
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+  } */
+  /* .brand_img {
+    margin-right: 6%;
+  } */
+  .brand_class {
+    text-align: center;
+    justify-content: center;
   }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1315px) {
+  /* .brand_img {
+    margin-right: 6%;
+  } */
   .portfolio-one__fimlor {
     padding-right: 30px;
   }
