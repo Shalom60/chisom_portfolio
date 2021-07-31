@@ -276,9 +276,9 @@
   /* .brand_img {
     margin-right: 5%;
   } */
-  .brand-img {
+  /* .brand-img {
     width: 80%;
-  }
+  } */
   .welcome-one__left {
     margin-right: 0;
     margin-bottom: 50px;
@@ -1212,11 +1212,13 @@
   } */
   .brand_class {
     text-align: center;
-    justify-content: center;
   }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1315px) {
+  .brand_class {
+    text-align: center;
+  }
   /* .brand_img {
     margin-right: 6%;
   } */
