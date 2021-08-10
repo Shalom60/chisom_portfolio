@@ -383,8 +383,8 @@ ul {
 # Navigations One
 --------------------------------------------------------------*/
 .main-header {
-  background: transparent;
-  position: absolute;
+  background: #1E1E22;
+  position: fixed;
   left: 0px;
   top: 0px;
   width: 100%;
@@ -1772,7 +1772,7 @@ ul {
 }
 
 .main-slider .container {
-  padding-top: 370px;
+  padding-top: 300px;
   padding-bottom: 260px;
 }
 
@@ -2216,6 +2216,8 @@ ul {
   font-weight: 700;
   margin: 0;
   margin-bottom: 37px;
+  margin-top: 37px;
+  text-align: justify;
 }
 
 .welcome-one__right-text-2 {
@@ -2644,22 +2646,23 @@ ul {
 }
 
 .services-one .section-title {
-  margin-bottom: 117px;
+  margin-bottom: 44px;
 }
 
-.services-one .row {
+/* .services-one .row {
   --bs-gutter-x: 20px;
-}
+} */
 
 .services-one__single {
   position: relative;
   display: block;
   border-radius: var(--moniz-border-radius, 10px);
   background-color: rgb(255, 255, 255);
-  box-shadow: 0px 10px 60px 0px rgb(0, 0, 0, 0.07);
-  padding: 100px 60px 50px;
+  box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 7%);
+  padding: 80px 60px 60px;
   text-align: center;
-  margin-bottom: 105px;
+  margin-bottom: 50px;
+}
 }
 
 .services-one__icon {
@@ -5642,11 +5645,12 @@ ul {
   font-weight: 700;
   line-height: 34px;
   margin-bottom: 20px;
+  padding-top: 20px;
 }
 
 .service-details__text-1 {
   margin: 0;
-  padding-bottom: 40px;
+  padding-bottom: 0;
 }
 
 .service-details__text-2 {
@@ -5656,8 +5660,8 @@ ul {
 .service-details__list {
   position: relative;
   display: block;
-  margin-top: 45px;
-  margin-bottom: 45px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .service-details__list li {
@@ -5706,12 +5710,13 @@ ul {
   position: relative;
   display: block;
   background-color: #f1f1f5;
-  padding: 45px 30px 40px;
+  padding: 80px 30px 40px;
   border-radius: var(--moniz-border-radius, 10px);
+  height: 390px;
 }
 
 .service-details__sidebar-title {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 30px;
   margin-left: 20px;
@@ -5724,7 +5729,7 @@ ul {
 
 .service-details__sidebar-category-list li a {
   color: var(--moniz-gray, #717178);
-  font-size: 16px;
+  font-size: 18px;
   position: relative;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -7177,7 +7182,8 @@ ul {
 .reasons__left {
   position: relative;
   display: block;
-  margin-right: 70px;
+  /* margin-right: 70px; */
+  text-align: justify;
 }
 
 .reasons__img {
@@ -7454,8 +7460,15 @@ ul {
   padding-left: 5%;
 }
 .brand_img {
-  margin-bottom: 5%;
-  margin-right: 8%;
   width: auto;
   height: 90px;
+}
+
+.counters-one .row {
+  display: flex;
+}
+
+.counters-one .column {
+  flex: 11.11%;
+  padding: 5px;
 }
