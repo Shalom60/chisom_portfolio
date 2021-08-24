@@ -65,7 +65,7 @@
                                 </li>
                             </ul>
                              <div class="welcome-one__solutions">
-                                 <a href="assets/images/resources/cv.pdf" download class="welcome-one__solutions-single abt_me3">
+                                 <a href="assets/images/resources/cv1.pdf" download class="welcome-one__solutions-single abt_me3">
                                     <div class="welcome-one__solutions-icon">
                                         <span class="icon-tick"></span>
                                     </div>
